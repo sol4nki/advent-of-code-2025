@@ -1,3 +1,6 @@
+# numebrs with double like XYZXYZ format 11 22 33 1212 etc
+# from the ranges provided
+
 with open("day2_input.txt") as f:
     x = f.readline().strip()
     x = x.split(',')
