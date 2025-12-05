@@ -20,7 +20,7 @@ for move in lines:
         counter += int(move[1:])
         if counter >= 100:
             counter = counter % 100 
-        print(counter)
+        # print(counter)
 
     if counter == 0:
         passkey_number+=1
